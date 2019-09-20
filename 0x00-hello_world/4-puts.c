@@ -6,11 +6,9 @@
  */
 int main(void)
 {
-<<<<<<< HEAD
-    puts("\"Programming is like building a multilingual puzzle");
-    return (0);
-=======
 puts("\"Programming is like building a multilingual puzzle");
 return (0);
->>>>>>> c35d601cad5c42ba56fa62d4c33dd337854a6220
+
+puts("\"Programming is like building a multilingual puzzle");
+return (0);
 }
