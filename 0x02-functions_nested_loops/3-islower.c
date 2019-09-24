@@ -1,5 +1,3 @@
-#include "holberton.h"
-
 /**
  * _islower - Check if a number is greater than 0
  * @c: The number to be checked
