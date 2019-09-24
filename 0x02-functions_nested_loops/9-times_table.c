@@ -1,9 +1,9 @@
 #include "holberton.h"
 /**
- * times_tables - print nine tables
+ * times_table - print nine tables
  */
 
-void times_tables(void)
+void times_table(void)
 {
 int x, y, z, a, b;
 x = 0;
@@ -13,7 +13,7 @@ while (x < 10)
 _putchar(48);
 for (y = 0; b < 9; y++)
 {
-if (c < 10)
+if (z < 10)
 {
 _putchar(',');
 _putchar(' ');
@@ -33,6 +33,6 @@ z = z + a;
 }
 _putchar('\n');
 z++;
-c = a; 
+z = a; 
 } 
 }

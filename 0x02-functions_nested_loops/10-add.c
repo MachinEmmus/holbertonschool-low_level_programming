@@ -1,11 +1,11 @@
 /**
  * add - Sum two numbers
- * @a: First number
- * @b: Second number
+ * @x: First number
+ * @z: Second number
  *
  * Return: The sum result
  */
 int add(int x, int z)
 {
-return(x + z);
+return (x + z);
 }
