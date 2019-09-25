@@ -1,38 +1,33 @@
 #include "holberton.h"
 /**
- * times_table - print nine tables
+ * times_table - writes the character c to stdout
  */
-
 void times_table(void)
 {
-int x, y, z, a, b;
-x = 0;
-z = x;
-while (x < 10)
+int x = 0, y = 0, z;
+for (; x <= 9; x++)
 {
-_putchar(48);
-for (y = 0; b < 9; y++)
+for (; y <= 9; y++)
 {
+z = x * y;
 if (z < 10)
 {
-_putchar(',');
-_putchar(' ');
-_putchar(' ');
-_putchar('0' + z);
-}
-else 
+if (y > 0)
 {
-a = z / 10;
-b = z % 10;  
 _putchar(',');
 _putchar(' ');
-_putchar('0' + a);
-_putchar('0' + b);
+_putchar(' ');
 }
-z = z + a;
+_putchar(z + '0');
+}
+else
+{
+_putchar(',');
+_putchar(' ');
+_putchar(z / 10 + '0');
+_putchar(z % 10 + '0');
+}
 }
 _putchar('\n');
-z++;
-z = a; 
-} 
+}
 }
