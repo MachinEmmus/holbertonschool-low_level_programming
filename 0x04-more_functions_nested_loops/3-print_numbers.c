@@ -2,6 +2,7 @@
 
 /**
  * print_numbers - print numbers between 1 to 9
+ *
  * Return: void
 */
 
@@ -14,4 +15,3 @@ for (i = 0; i < 10; i++)
 }
 _putchar('\n');
 }
-
