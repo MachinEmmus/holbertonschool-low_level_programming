@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * print_most_numbers - print numbers between 1-9 <> 2 && 4
+ * print_most_numbers - print numbers distint 2y4
 */
 
 void print_most_numbers(void)
