@@ -2,6 +2,7 @@
 
 /**
  * more_numbers - Numbers between 1-14 x10
+ * Return: void
  */
 
 void more_numbers(void)
@@ -11,7 +12,9 @@ void more_numbers(void)
 		for (int j = 0; j < 15; j++)
 		{
 			if (j > 9)
+			{
 				_putchar('1');
+			}	
 			_putchar('0' + (j % 10));
 		}
 		_putchar('\n');
