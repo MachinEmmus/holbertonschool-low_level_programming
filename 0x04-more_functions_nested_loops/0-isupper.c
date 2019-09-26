@@ -1,4 +1,3 @@
-
 /**
  * _isupper - Character is Uppercase
  * @c: The number to be checked
