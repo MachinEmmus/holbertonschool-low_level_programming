@@ -1,9 +1,7 @@
-#include "holberton.h"
 
 /**
- * _isupper - Check if a number is greater than 0
+ * _isupper - Character is Uppercase
  * @c: The number to be checked
- *
  * Return: 1 if the letter is uppercase. 0 otherwise
  */
 
