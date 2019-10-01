@@ -15,15 +15,15 @@ x = 0;
 		x++;
 	}
 	if (x % 2 == 0)
-	{	
-		for (n = x/2; n <= x ; n++)
+	{
+		for (n = (x / 2); n <= x ; n++)
 			_putchar(str[n]);
 	}
-	else 
+	else
 	{
 		x--;
-		for (n = x/2; n <= x; n++)
-	     	_putchar(str[n]);
+		for (n = (x / 2); n <= x; n++)
+			_putchar(str[n]);
 	}
 	_putchar('\n');
 }
