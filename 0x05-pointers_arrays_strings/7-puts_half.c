@@ -5,7 +5,7 @@
  * Return: void
  */
 
-void puts2(char *str)
+void puts_half(char *str)
 {
 int x;
 int n;
@@ -14,16 +14,15 @@ x = 0;
 	{
 		x++;
 	}
-	x--;
 	if (x % 2 == 0)
 	{	
-		for (n = x; n >= x/2; n--)
+		for (n = x/2; n <= x ; n++)
 			_putchar(str[n]);
 	}
 	else 
 	{
 		x--;
-		for (n = x; n >= x/2; n--)
+		for (n = x/2; n <= x; n++)
 	     	_putchar(str[n]);
 	}
 	_putchar('\n');
