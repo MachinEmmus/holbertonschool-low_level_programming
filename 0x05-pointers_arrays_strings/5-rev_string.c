@@ -7,12 +7,20 @@
 
 void rev_string(char *s)
 {
-int x;
-int i,j,z,y
-	for (x = 10; x >= 0; x--)
-	{
-		/* MACHINEMMUS */
-	}
+int x, y, z;
+x = 0;
+char i, j;
+	while (s)
+		x++
 	x--;
-	_putchar('\n');
+	z = x / 2;
+	for (y = 0; x > z; x--)
+	{
+		i = s[x];
+		j = s[y];
+		s[x] = i;
+		s[y] = j;
+		y++;
+
+	}
 }
