@@ -1,5 +1,5 @@
 /**
- * *_strcpy - funtion 
+ * *_strcpy - funtion
  * @dest: first parametre
  * @src: First parametre
  *
@@ -13,6 +13,5 @@ x = 0;
 		x++;
 	for (z = 0; z <= x; z++)
 		dest[z] = src[z];
-	
 	return (dest);
 }
