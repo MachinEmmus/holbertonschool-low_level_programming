@@ -8,9 +8,11 @@
 void rev_string(char *s)
 {
 int x;
+int i,j,z,y
 	for (x = 10; x >= 0; x--)
 	{
-		*s = *s[x];
+		/* MACHINEMMUS */
 	}
+	x--;
 	_putchar('\n');
 }
