@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  * rev_string - string invert
  * @s: is a string
@@ -9,7 +10,7 @@ void rev_string(char *s)
 int x, y, z;
 x = 0;
 char i, j;
-	while (s[x] != 0)
+	while (s[x] != '\0')
 		x++;
 	x--;
 	z = x / 2;
