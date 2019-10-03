@@ -1,7 +1,8 @@
 /**
- * *_strcat - Funtion thats return to char
+ * *_strncat - Funtion thats return to char
  * @dest: "Hello ";
  * @src: "World!"
+ * @n: number to print
  * Return: Char value of the String
  */
 
