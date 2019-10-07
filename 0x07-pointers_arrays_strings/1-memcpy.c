@@ -10,10 +10,9 @@
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
 unsigned int i;
-int x = 0;
 	for (i = *dest ; i < n; i++)
 	{
-		dest[i] = *(src + x);
+		dest[i] = *(src + n);
 		x += 1;
 	}
 	return (dest);
