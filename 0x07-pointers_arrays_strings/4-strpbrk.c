@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * _strpbrk - search 
+ * _strpbrk - search
  * @s: string initial
  * @accept: string muestra
  * Return: pointer s or null

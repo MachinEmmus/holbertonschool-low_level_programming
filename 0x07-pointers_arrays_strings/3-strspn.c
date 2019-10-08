@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * _strspn - string length 
+ * _strspn - string length
  * @s: # bytes initial
  * @accept: Bytes
  * Return: Bytes of the segment initial
