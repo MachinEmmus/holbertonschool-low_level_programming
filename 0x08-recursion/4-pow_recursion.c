@@ -1,5 +1,5 @@
 #include "holberton.h"
-/** 
+/**
  * _pow_recursion - int x, int y
  * @x: base
  * @y: potencia
