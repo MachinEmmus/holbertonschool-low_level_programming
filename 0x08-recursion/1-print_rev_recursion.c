@@ -15,5 +15,4 @@ char e;
 		_print_rev_recursion(s);
 		_putchar(e);
 	}
-	return;
 }

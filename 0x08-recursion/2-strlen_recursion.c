@@ -1,16 +1,18 @@
 #include "holberton.h"
 /**
- *
- *
- *
+ * _strlen_recursion - This funtions is very recursive
+ * @s: parametrer
+ * Return: int;
  */
 int _strlen_recursion(char *s)
 {
 int x;
-	if(s)
+x = 0;
+	if (*s)
 	{
 		s++;
-		x = 0 + _strlen_recursion(s);
+		x++;
+		x = x + _strlen_recursion(s);
 	}
 	return (x);
 }
