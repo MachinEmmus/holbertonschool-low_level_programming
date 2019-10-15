@@ -34,6 +34,6 @@ char *p;
 		else
 			*(p + i) = *(s1 + i);
 	}
+	*(p + i) = *(s2 + b);
 	return (p);
-	*(p + i) = *(s2 + b)
 }
