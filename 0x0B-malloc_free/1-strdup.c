@@ -15,10 +15,10 @@ a = 0;
 	while (str[a] != '\0')
 		a++;
 	a++;
-	p = malloc(a * sizeof(char));
+	p = malloc(sizeof(char) * a);
 	if (p == NULL)
 		return (NULL);
 	for (i = 0; i <= a; i++)
-		*(str + i) = *(p + i);
+		p[i] = str[i];
 	return (p);
 }
