@@ -14,7 +14,7 @@ char *p;
 	if (s1 == NULL)
 		s1 = "";
 	if (s2 == NULL)
-		s1 = "";
+		s2 = "";
 	while (s1[a] != '\0')
 		a++;
 	while (s2[b] != '\0')
@@ -34,6 +34,5 @@ char *p;
 		else
 			*(p + i) = *(s1 + i);
 	}
-	*(p + i) = *(s2 + b);
 	return (p);
 }
