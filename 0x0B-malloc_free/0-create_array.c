@@ -1,9 +1,9 @@
 #include <stdlib.h>
 /**
- * 
- *
- *
- *
+ * *create_array - create array with size, and char specific 
+ * @size: Is 98
+ * @c: char 
+ * Return: char of pointer
  */
 
 char *create_array(unsigned int size, char c)
