@@ -19,6 +19,7 @@ char *p;
 		a++;
 	while (s2[b] != '\0')
 		b++;
+	b++;
 	Sum = a + b;
 	p = malloc(Sum);
 	if (p == NULL)
