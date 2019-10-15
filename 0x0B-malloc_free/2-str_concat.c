@@ -28,11 +28,12 @@ char *p;
 	{
 		if (i > (a - 1))
 		{
-			++x;
 			*(p + i) = *(s2 + x);
+			x++;
 		}
 		else
 			*(p + i) = *(s1 + i);
 	}
 	return (p);
+	*(p + i) = *(s2 + b)
 }
