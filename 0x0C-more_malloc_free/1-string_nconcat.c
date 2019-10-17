@@ -42,6 +42,7 @@ unsigned int i, a = 0, b = 0, sum = 0, x = 0;
 			x++;
 		}
 	}
+	*(p + i) = '\0';
 	return (p);
 }
 
