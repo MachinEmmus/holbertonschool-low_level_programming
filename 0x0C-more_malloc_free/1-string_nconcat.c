@@ -1,8 +1,10 @@
 #include <stdlib.h>
 /**
- *
- *
- *
+ * string_nconcat - Concatenatus with n
+ * @s1: ...
+ * @s2: ...
+ * @n: ...
+ * Return: Char;
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
@@ -28,7 +30,7 @@ unsigned int i, a = 0, b = 0, sum = 0, x = 0;
 	p = malloc(sum);
 	if (p == NULL)
 		return (NULL);
-	for (i = 0; i <= sum; i++)
+	for (i = 0; i < sum; i++)
 	{
 		if (i < a)
 		{
@@ -37,10 +39,9 @@ unsigned int i, a = 0, b = 0, sum = 0, x = 0;
 		else
 		{
 			*(p + i) = s2[x];
-				x++;
+			x++;
 		}
 	}
-	*(p + i) = '\0';
 	return (p);
 }
 
