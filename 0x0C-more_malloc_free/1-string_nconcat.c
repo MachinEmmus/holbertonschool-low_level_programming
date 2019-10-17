@@ -19,7 +19,6 @@ unsigned int i, a = 0, b = 0, sum = 0, x = 0;
 		a++;
 	while (s2[b])
 		b++;
-	b++;
 	if (n >= b)
 	{
 		sum = a + b;
