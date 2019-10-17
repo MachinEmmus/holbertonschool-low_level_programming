@@ -19,17 +19,19 @@ unsigned int i, a = 0, b = 0, sum = 0, x = 0;
 		a++;
 	while (s2[b])
 		b++;
-	b++;
 	if (n >= b)
 	{
-		sum = a + b;
+		sum = a + b + 1;
 		p = malloc(sum);
 			if (p == NULL)
 				return (NULL);
 	}
+	else
+	{
 	sum = a + n;
 	p = malloc(sum);
-	if (p == NULL)
+	}
+    if (p == NULL)
 		return (NULL);
 	for (i = 0; i < sum; i++)
 	{
@@ -46,4 +48,3 @@ unsigned int i, a = 0, b = 0, sum = 0, x = 0;
 	*(p + i) = '\0';
 	return (p);
 }
-
