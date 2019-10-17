@@ -1,8 +1,9 @@
 #include <stdlib.h>
 /**
- * _calloc - calloc function
- * @nmemb: elementos matriciales 
+ * *_calloc - calloc function
+ * @nmemb: elementos matriciales
  * @size: bytes cada uno
+ * Return: void and pointer
  */
 
 void *_calloc(unsigned int nmemb, unsigned int size)
