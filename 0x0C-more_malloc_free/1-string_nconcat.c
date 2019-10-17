@@ -21,13 +21,13 @@ unsigned int i, a = 0, b = 0, sum = 0, x = 0;
 		b++;
 	if (n >= b)
 	{
-		sum = a + b + 1;
+		sum = a + b;
 	}
 	else
 	{
-	sum = a + n;
+		sum = a + n;
 	}
-	p = malloc(sum);
+	p = malloc(sum + 1);
     if (p == NULL)
 		return (NULL);
 	for (i = 0; i < sum; i++)
