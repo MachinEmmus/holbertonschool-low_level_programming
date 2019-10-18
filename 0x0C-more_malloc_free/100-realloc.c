@@ -34,5 +34,5 @@ unsigned int x, i;
 	for (i = 0; i < x; i++)
 		*(p + i) = *((char *)ptr + i);
 	free(ptr);
-	retrun(p);
+	return (p);
 }
