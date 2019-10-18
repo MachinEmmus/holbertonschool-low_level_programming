@@ -15,11 +15,11 @@ unsigned int x, i;
 		return (ptr);
 	if (new_size > old_size)
 	{
-		x = new_size;
+		x = old_size;
 	}
 	else
 	{
-		x = old_size;
+		x = new_size;
 	}
 	if (new_size == 0 && ptr != NULL)
 	{
