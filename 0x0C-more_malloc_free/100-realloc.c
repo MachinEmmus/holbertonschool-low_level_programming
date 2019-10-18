@@ -3,26 +3,26 @@
   * _realloc - asignado memoria a strings
   * @ptr: String send me
   * @old_size: ...
-  * @new:size: ..
+  * @new_size: ...
   * Return: String new inizializated
   */
 
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
 char *p;
-unsigned x, i;
+unsigned int x, i;
 	if (new_size > old_size)
 	{
 		x = new_size;
 	}
-	else 
+	else
 	{
 		x = old_size;
 	}
 	if (new_size == old_size)
 		return (ptr);
 	if (ptr == NULL)
-			malloc(new_size);
+		malloc(new_size);
 	if (new_size == 0)
 	{
 		free(ptr);
