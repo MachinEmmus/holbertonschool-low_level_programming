@@ -13,13 +13,13 @@ char *p;
 unsigned int x, i;
 	if (new_size == old_size)
 		return (ptr);
-	if (new_size > old_size)
+	if (old_size < new_size)
 	{
-		x = new_size;
+		x = old_size;
 	}
 	else
 	{
-		x = old_size;
+		x = new_size;
 	}
 	if (ptr == NULL)
 		malloc(new_size);
