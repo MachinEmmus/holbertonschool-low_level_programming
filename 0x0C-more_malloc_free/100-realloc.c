@@ -13,17 +13,15 @@ char *p;
 unsigned int x, i;
 	if (new_size == old_size)
 		return (ptr);
-	if (old_size < new_size)
-	{
-		x = old_size;
-	}
-	else
+	if (new_size > old_size)
 	{
 		x = new_size;
 	}
-	if (ptr == NULL)
-		malloc(new_size);
-	if (new_size == 0)
+	else
+	{
+		x = old_size;
+	}
+	if (new_size == 0 && ptr != NULL)
 	{
 		free(ptr);
 		return (NULL);
@@ -31,6 +29,8 @@ unsigned int x, i;
 	p = malloc(new_size);
 		if (p == NULL)
 			return (NULL);
+	if (ptr == NULL)
+		return (p);
 	for (i = 0; i < x; i++)
 		*(p + i) = *((char *)ptr + i);
 	free(ptr);
