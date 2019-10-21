@@ -1,5 +1,5 @@
 #include "dog.h"
-#include <stdio.h>
+#include <stdlib.h>
 /**
  * struct dog - My Dog Structure
  * @name: Name of the dog
