@@ -1,7 +1,7 @@
 #include "dog.h"
 #include <stdlib.h>
 /**
- * _strlen - 
+ * _strlen - count string
  * @str: input string
  * Return: string length unsigned integer
  */
@@ -15,7 +15,7 @@ unsigned int _strlen(char *str)
 }
 /**
  * _strcpy - copies string
- * @to: pointer to new string
+ * @new: pointer to new string
  * @from: pointer to string to copy
  * Return: void
  */
@@ -27,7 +27,7 @@ void _strcpy(char *new, char *from)
 		new[i] = from[i];
 }
 /**
- * new_dog - creates new type of struct dog
+ * new_dog - creates new dog type
  * @name: dog name
  * @age: dog age
  * @owner: dog owner
