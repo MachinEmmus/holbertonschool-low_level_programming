@@ -7,7 +7,7 @@
  */
 unsigned int _strlen(char *str)
 {
-	unsigned int i = 0;
+unsigned int i = 0;
 	while (*(str + i) != '\0')
 		i++;
 	return (i);
@@ -20,7 +20,7 @@ unsigned int _strlen(char *str)
  */
 void _strcpy(char *new, char *from)
 {
-	unsigned int i, len = _strlen(from);
+unsigned int i, len = _strlen(from);
 	for (i = 0; i <= len; i++)
 		new[i] = from[i];
 }
