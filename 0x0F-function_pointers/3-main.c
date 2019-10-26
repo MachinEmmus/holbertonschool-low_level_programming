@@ -11,13 +11,15 @@
 
 int main(int argc, char *argv[])
 {
+char *count;
 	if (argc != 4)
 	{
 		printf("Error\n");
 		exit(98);
 	}
-	if (*argv[2] != '+' && *argv[2] != '-' && *argv[2] != '*' &&
-			*argv[2] != '/' && *argv[2] != '%')
+	count = argv[2];
+	if ((*argv[2] != '+' && *argv[2] != '-' && *argv[2] != '*' &&
+		*argv[2] != '/' && *argv[2] != '%') || *(count + 1) != '\0')
 	{
 		printf("Error\n");
 		exit(99);
