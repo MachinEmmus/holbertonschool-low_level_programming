@@ -35,7 +35,7 @@ void castFloat(va_list list)
  */
 void castString(va_list list)
 {
-	char *str = va_arg(list, char*);
+char *str = va_arg(list, char*);
 	if (str == NULL)
 	{
 		printf("(nil)");
@@ -63,7 +63,7 @@ char *wait = "";
 	};
 
 	va_start(valist, format);
-	while (format[i] && format != NULL)
+	while (format && format[i])
 	{
 		while (k < 4)
 		{
