@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
- * append_text_to_file - ... 
- * @filename: name of the file append 
+ * append_text_to_file - ...
+ * @filename: name of the file append
  * @text_content: text to be append
  * Return: 1 on success or -1 if fail
  */
