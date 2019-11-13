@@ -3,7 +3,7 @@
 #include <stdarg.h>
 /**
  * struct all - is my structure
- * @type: parametre for type output
+ * @t: parametre for type output
  * @f: Is the Functions
  *
  * Description: ...
