@@ -1,14 +1,12 @@
 #include "search_algos.h"
 #include <math.h>
 
-
 /**
  * jump_search - Searches for a value in an array
- * @array: The size of the array we are looking through
- * @size: The size of the array
- * @value: The value that the function is trying to find.
- * Return: The index of the value or if value is not present in array
- * or if array is NULL, your function must return -1
+ * @array: array with values
+ * @size: size of array
+ * @value: The value to found in the array
+ * Return: index if found -1 if error
  */
 int jump_search(int *array, size_t size, int value)
 {
