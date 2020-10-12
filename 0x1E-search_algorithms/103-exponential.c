@@ -3,7 +3,7 @@
  * exponential_search - searches sorted array
  * @array: is a pointer
  * @size: elements in array
- * @valu value to search
+ * @value: value to search
  * Return: -1 
  */
 
