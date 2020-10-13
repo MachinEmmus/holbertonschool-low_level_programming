@@ -1,10 +1,11 @@
 #include "search_algos.h"
+
 /**
  * exponential_search - searches sorted array
  * @array: is a pointer
  * @size: elements in array
  * @value: value to search
- * Return: -1 
+ * Return: return -1
  */
 
 int exponential_search(int *array, size_t size, int value)
